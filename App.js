@@ -8,6 +8,7 @@ import LoadingScreen from './screens/LoadingScreen';
 import SignUpScreen from './screens/SignUpScreen';
 import SignInScreen from './screens/SignInScreen';
 
+
 let firebaseConfig = {
     apiKey: "AIzaSyCm4Vr2OpWCD56FdUpD5A3q-YrMCOS8ckg",
     authDomain: "reactnativecontactsapp.firebaseapp.com",
@@ -20,6 +21,7 @@ let firebaseConfig = {
 
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+
 
 const MainNavigator = createStackNavigator({
 
