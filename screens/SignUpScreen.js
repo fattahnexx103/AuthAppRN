@@ -127,6 +127,10 @@ const styles = StyleSheet.create({
     marginTop: 100,
     marginBottom: 100
   },
+  signInLogo:{
+    width: 100,
+    height: 100
+  },
   form: {
     padding: 20,
     width: "100%"
